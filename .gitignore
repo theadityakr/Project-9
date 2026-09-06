@@ -1,0 +1,81 @@
+# ─── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.orig
+
+# ─── Swift Package Manager ────────────────────────────────────────────────────
+.build/
+*.o
+*.d
+*.swp
+
+# Keep Package.resolved so dependency versions are reproducible across machines.
+# Uncomment the line below if you prefer not to commit it.
+# Package.resolved
+
+# ─── Xcode ────────────────────────────────────────────────────────────────────
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode archives / exports (produced by build scripts)
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ─── Build output (our own scripts) ──────────────────────────────────────────
+dist/
+*.app/
+
+# ─── CocoaPods (if ever added) ────────────────────────────────────────────────
+Pods/
+*.xcworkspace
+
+# ─── Fastlane (if ever added) ─────────────────────────────────────────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ─── Tuist (if ever added) ────────────────────────────────────────────────────
+graph.dot
+Tuist/Dependencies
+.tuist-version
+Derived/
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.local
+*.pem
+*.p12
+*.p8
+*.mobileprovision
+
+# ─── IDE / editors ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# ─── Logs & crash reports ─────────────────────────────────────────────────────
+*.log
+crash_reports/
